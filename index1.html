@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste Estagio</h1>
+    <script>
+        function contarLetrasA(str) {
+            let contagem = (str.match(/a/gi) || []).length;
+            return `A letra 'a' aparece ${contagem} vezes na string.`
+        }
+
+
+        let texto = prompt("Informe uma string:")
+        console.log(contarLetrasA(texto))
+    </script>
+</body>
+</html>
